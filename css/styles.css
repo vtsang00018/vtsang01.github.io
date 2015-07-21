@@ -1,10 +1,25 @@
 /* Basic Styles for Font and Alignment*/
 
+/* Brandico Font Icons*/
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
 body{
   font-family: 'Roboto', sans-serif;
   color: #000000;
   position: relative;
- 
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.col-profile, .col-info{
+  width: 50%;
 }
 .color-me{
   color: #0D4F8B;
@@ -223,6 +238,7 @@ Media Queries - change design based on screen size
 
 -------------------------------- */
 
+/* Responsive Jumbrotron */
 
 @media screen and (max-width: 540px){
   .fade-learn, .fade-explore, .fade-discover{ 
@@ -238,6 +254,17 @@ Media Queries - change design based on screen size
   font-weight: 300;
   color: #0D4F8B; 
   }
+   #logo-list > .col-md-1 {
+    width: 64px;
+    height: 64px;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+  }
+  #logo-list.flex{
+    display: flex;
+    padding-left: 15%;
+    padding-right: 20%;
+  }
 }
 
 @media screen and (min-width: 541px){
@@ -247,10 +274,42 @@ Media Queries - change design based on screen size
     padding-right: 10%;
     padding-left: 10%;
   }
-   .flex{
+  #jumbo.flex{
     display: flex; 
   }
 }
+
+/* Responsive About Section */
+
+@media screen and (max-width: 990px){
+  .intro{
+    padding-top: 10%;
+    padding-left: 12.5%; 
+    padding-right: 12.5%;
+  }
+   #logo-list.flex{
+    display: flex;
+    padding-left: 25%;
+  }
+   #logo-list > .col-md-1 {
+    width: 64px;
+    height: 64px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+} 
+@media screen and (min-width: 991px){
+  #logo-list.flex{
+    padding-left: 48%;
+  }
+   #logo-list > .col-md-1 {
+    width: 64px;
+    height: 64px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+} 
+
 
 
 
