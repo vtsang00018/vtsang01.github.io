@@ -1,17 +1,5 @@
 /* Basic Styles for Font and Alignment*/
 
-/* Brandico Font Icons*/
-@import url(http://weloveiconfonts.com/api/?family=brandico);
-
-/* brandico */
-[class*="brandico-"]:before {
-  font-family: 'brandico', sans-serif;
-}
-
-a {
-    text-decoration: none !important;
-}
-
 .white{
   color: #FFF;
 }
