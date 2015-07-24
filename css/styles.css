@@ -205,14 +205,6 @@
     color: #FFFFFF;
 }
 
-.circle-profile{
-    width:200px;
-    height:200px;
-    border-radius:50%;
-    background-image:url("../images/giraffe.jpg");
-    display:block;
-    background-position-y:100% 
-}
 
 #inner {
     display: block;
@@ -313,9 +305,6 @@ Media Queries - change design based on screen size
     padding-right: 10%;
   }
 } 
-
-
-
 
 /* -------------------------------- 
 
